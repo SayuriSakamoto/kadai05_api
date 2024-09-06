@@ -1,4 +1,4 @@
-const apiKey = '1013206412784394238'; // 楽天APIキー
+const apiKey = '..'; // 楽天APIキー
 const apiUrl = 'https://app.rakuten.co.jp/services/api/Recipe/CategoryRanking/20170426'; // カテゴリランキングエンドポイント
 
 $('#searchButton').on('click', function() {
