@@ -1,0 +1,71 @@
+body {
+    background-image: url('./img/60acdca8df807d591540c7abf99be0de_w.jpeg');
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh; /* 画面全体の高さを指定 */
+    display: flex; /* Flexboxを使って中央配置 */
+    justify-content: center; /* 水平方向に中央配置 */
+    align-items: center; /* 垂直方向に中央配置 */
+}
+
+h1 {
+    text-align: center;
+}
+
+.container {
+    max-width: 800px; /* 白い枠の幅を調整 */
+    width: 100%;
+    margin: 0 auto;
+    background-color: white;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+.recipes {
+    margin-top: 20px;
+}
+
+.recipe {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.recipe img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>材料からレシピ検索</title>
+    <!-- CSSファイルのリンク -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  
+    <div class="container">
+        <h1>材料でレシピ検索</h1>
+        <label for="ingredients">材料を入力してください（カンマで区切る）:</label>
+        <input type="text" id="ingredients" placeholder="例: なす, チーズ">
+        <button id="searchButton">レシピ検索</button>
+
+        <div class="recipes" id="recipes"></div>
+    </div>
+
+    <!-- jQueryの読み込み -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- JavaScriptファイルのリンク -->
+    <script src="script.js"></script>
+
+</body>
+</html>
